@@ -1,0 +1,17 @@
+video {
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto; /* Increased margin for more space */
+    display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* Softer shadow */
+    padding: 15px; /* Adjusted padding */
+    background-color: #f8f8f8; /* Slightly off-white for a softer look */
+    border-radius: 15px; /* Slightly more rounded */
+    border: 1px solid #ccc; /* Lighter border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+video:hover {
+    transform: scale(1.03); /* Slightly larger on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
